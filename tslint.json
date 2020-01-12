@@ -1,0 +1,58 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "arrow-parens": false,
+        "curly": false,
+        "indent": [
+            true,
+            "tabs",
+            2
+        ],
+        "interface-name": [
+            true,
+            "never-prefix"
+        ],
+        "no-empty-interface": false,
+        "max-classes-per-file": false,
+        "no-floating-promises": true,
+        "object-literal-key-quotes": false,
+        "object-literal-sort-keys": false,
+        "one-line": true,
+        "ordered-imports": [
+            false
+        ],
+        "no-angle-bracket-type-assertion": false,
+        "no-console": [
+            false
+        ],
+        "no-unused-expression": false,
+        "no-duplicate-switch-case": true,
+        "promise-function-async": true,
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape"
+        ],
+        "switch-default": true,
+        "trailing-comma": [
+            false
+        ],
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type"
+        ],
+        "max-line-length": [
+            true,
+            125
+        ],
+        "semicolon": [
+            true,
+            "always",
+            "ignore-bound-class-methods"
+        ]
+    }
+}
